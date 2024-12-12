@@ -1,0 +1,45 @@
+.character-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.character-item {
+    text-align: center;
+    cursor: pointer;
+}
+
+.character-thumbnail {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.character-details {
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+.character-details {
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.character-details h2 {
+    margin-bottom: 10px;
+}
+
+.character-details ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.character-details ul li {
+    margin: 5px 0;
+}
